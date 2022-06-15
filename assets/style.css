@@ -122,8 +122,9 @@ aside p{
     text-align: left;
     font-size: 15px;
     font-weight: 900;
-    color: rgb(22, 88, 147);
+    color: black;
 }
+
 .content-template {
     background-attachment: fixed;
     background-size: cover;
