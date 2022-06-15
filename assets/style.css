@@ -1,0 +1,164 @@
+* { 
+    margin: 0; 
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: larger;
+    padding: 15px;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a:hover {
+    background-color: rgb(131, 121, 121);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.jakarta-nav {
+    float: left;
+    padding: 15px;
+    margin-left: 10px;
+    font-size: larger;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.opening{
+    background-image: url("images/jakarta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.opening h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 240px;
+    color: white;
+}
+
+aside {
+    padding : 20px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#picture {
+    width: 12em;
+    margin-bottom: 10px;
+}
+
+aside h2 {
+    margin-bottom: 10px;
+}
+
+article h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 42px;
+    color: white;
+    font-weight: bolder;
+}
+
+.article-content {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.article-content li{
+    margin-left: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+aside {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin : 20px 20px;
+}
+
+.content-template {
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bg-sejarah {
+    background-image: url("images/jakarta2.jpg");
+}
+
+.bg-infrastruktur {
+    background-image: url("images/jakarta3.jpg");
+}
+
+.bg-geografi {
+    background-image: url("images/jakarta7.jpg");
+}
+
+.bg-lingkungan {
+    background-image: url("images/jakarta6.jpg");
+}
+
+.bg-makanan {
+    background-image: url("images/jakarta5.jpg");
+}
+
+.bg-kebudayaan {
+    background-image: url("images/jakarta4.jpg");
+}
+
+.profile-pribadi h2{
+    text-align: center;
+}
+
+.aside-figure figure{
+    margin-top: 100px;
+}
+
+.gambar-aside {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: black;  
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
