@@ -162,3 +162,21 @@ footer {
     text-align: center;
     padding: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+    nav li{
+        display: none;
+    }
+    .jakarta-nav{
+        display: block;
+        text-align: center;
+        float: none;
+    }
+    .content-template{
+        flex-direction: column;
+        text-align: center;
+    }
+    .content-template li{
+        text-align: justify;
+    }
+  }
